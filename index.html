@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,900;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav class="menu">
+          <a href="#">
+            <img class="menu__img" src="./img/logo.svg" alt="logo" />
+          </a>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="">Listings</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Newsroom</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Contact</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="">Our team</a>
+            </li>
+          </ul>
+
+          <div id="menu" class="modal-open modal-bg">
+            <ul class="menu__list-burger">
+              <li class="menu__item">
+                <a class="menu__link" href="">Listings</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Newsroom</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Contact</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Our team</a>
+              </li>
+            </ul>
+            <div>
+              <button class="menu__btn-close">
+                <img src="./img/close.png" alt="x" width="22px" />
+              </button>
+            </div>
+          </div>
+
+          <button id="burger_btn" class="menu__burger-btn">
+            <img src=".//img/Burger.svg" alt="menu" />
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__bg">
+          <div class="container">
+            <img class="hero__logo" src="./img/logo_hero.svg" alt="logo" />
+
+            <h1 class="hero__title">
+              We're here to help you find
+              <br />a new home
+            </h1>
+
+            <a class="hero__circle" href="#"
+              ><img
+                class="hero__img"
+                src="./img/Arrow.svg"
+                alt="arrow to down"
+                width="20px"
+                height="20px"
+            /></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="requirements">
+        <div class="container">
+          <div class="requirements__box">
+            <p class="title-orange">Our requirements</p>
+            <p class="title">How we choose our listings.</p>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Fugit qui aut rem itaque numquam?
+            </p>
+          </div>
+          <div class="requirements__wrapper">
+            <img
+              class="left__img"
+              src="./img/listings-bg.png"
+              alt="#"
+              width="480px"
+              height="588px"
+            />
+
+            <ul class="requirements__list">
+              <li class="requirements__item">
+                <div class="requirements__bg-gray">
+                  <img src="./img/listings-1.svg" alt="listings-1" />
+                </div>
+                <h3 class="requirements__title">Stellar locations</h3>
+                <p class="requirements__text">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="requirements__item">
+                <div class="requirements__bg-gray">
+                  <img src="./img/listings-2.svg" alt="listings-2" />
+                </div>
+                <h3 class="requirements__title">High quality builds</h3>
+                <p class="requirements__text">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="requirements__item">
+                <div class="requirements__bg-gray">
+                  <img src="./img/listings-3.svg" alt="listings-3" />
+                </div>
+                <h3 class="requirements__title">Expert interior design</h3>
+                <p class="requirements__text">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg">
+        <div class="container">
+          <img class="bg__img" src="./img/bg.jpeg" alt="bg" width="1200px" />
+        </div>
+      </section>
+
+      <section class="store">
+        <div class="container">
+          <div class="store__wrapper">
+            <p class="title-orange">Current listings</p>
+            <p class="title">What we have in store for you.</p>
+            <p class="subtitle">
+              Morbi neque ex, condimentum dapibus congue et, vulputate ut <br />
+              ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et
+              <br />
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+            <ul class="store__biglist">
+              <li class="store__item">
+                <img class="store__img" src="./img/store-1.jpeg" alt="store1" />
+                <div class="store__inner">
+                  <p class="store__text">House</p>
+                  <p class="store__title">California St.</p>
+                  <ul class="store__list">
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-1.svg"
+                        alt="icon1"
+                      />
+                      <p class="store__subtitle"><span>16</span> beds</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-2.png"
+                        alt="icon2"
+                      />
+                      <p class="store__subtitle"><span>2</span> bathrooms</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-3.png"
+                        alt="icon3"
+                      />
+                      <p class="store__subtitle"><span>11</span> rooms</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="store__item">
+                <img class="store__img" src="./img/store-2.png" alt="store1" />
+                <div class="store__inner">
+                  <p class="store__text">Villa</p>
+                  <p class="store__title">Welford Gardens</p>
+                  <ul class="store__list">
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-1.svg"
+                        alt="icon1"
+                      />
+                      <p class="store__subtitle"><span>12</span> beds</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-2.png"
+                        alt="icon2"
+                      />
+                      <p class="store__subtitle"><span>3</span> bathrooms</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-3.png"
+                        alt="icon3"
+                      />
+                      <p class="store__subtitle"><span>6</span> rooms</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="store__item">
+                <img class="store__img" src="./img/store-3.png" alt="store1" />
+                <div class="store__inner">
+                  <p class="store__text">House</p>
+                  <p class="store__title">The Grove</p>
+                  <ul class="store__list">
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-1.svg"
+                        alt="icon1"
+                      />
+                      <p class="store__subtitle"><span>12</span> beds</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-2.png"
+                        alt="icon2"
+                      />
+                      <p class="store__subtitle"><span>2</span> bathrooms</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-3.png"
+                        alt="icon3"
+                      />
+                      <p class="store__subtitle"><span>14</span> rooms</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="store__item">
+                <img class="store__img" src="./img/store-4.png" alt="store1" />
+                <div class="store__inner">
+                  <p class="store__text">Apartment</p>
+                  <p class="store__title">Wallace St.</p>
+                  <ul class="store__list">
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-1.svg"
+                        alt="icon1"
+                      />
+                      <p class="store__subtitle"><span>10</span> beds</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-2.png"
+                        alt="icon2"
+                      />
+                      <p class="store__subtitle"><span>2</span> bathrooms</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-3.png"
+                        alt="icon3"
+                      />
+                      <p class="store__subtitle"><span>8</span> rooms</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="store__item">
+                <img class="store__img" src="./img/store-5.png" alt="store1" />
+                <div class="store__inner">
+                  <p class="store__text">Apartment</p>
+                  <p class="store__title">Apartment</p>
+                  <ul class="store__list">
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-1.svg"
+                        alt="icon1"
+                      />
+                      <p class="store__subtitle"><span>8</span> beds</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-2.png"
+                        alt="icon2"
+                      />
+                      <p class="store__subtitle"><span>1</span> bathrooms</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-3.png"
+                        alt="icon3"
+                      />
+                      <p class="store__subtitle"><span>6</span> rooms</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="store__item">
+                <img class="store__img" src="./img/store-6.png" alt="store1" />
+                <div class="store__inner">
+                  <p class="store__text">House</p>
+                  <p class="store__title">North Avenue</p>
+                  <ul class="store__list">
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-1.svg"
+                        alt="icon1"
+                      />
+                      <p class="store__subtitle"><span>14</span> beds</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-2.png"
+                        alt="icon2"
+                      />
+                      <p class="store__subtitle"><span>3</span> bathrooms</p>
+                    </li>
+                    <li class="store__item-inner">
+                      <img
+                        width="20px"
+                        height="20px"
+                        src="./img/store-icon-3.png"
+                        alt="icon3"
+                      />
+                      <p class="store__subtitle"><span>11</span> rooms</p>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button class="show__btn">
+            Show all listings
+            <img src="./img/store-icon-right.png" alt="right" />
+          </button>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="container team__wrapper">
+          <div class="team__inner">
+            <p class="title-orange">Our people</p>
+            <p class="title">
+              Meet our team of <br />
+              dedicated and <br />
+              talented agents.
+            </p>
+            <p class="subtitle team__subtitle">
+              Morbi neque ex, condimentum dapibus <br />
+              congue et, vulputate ut ligula. Vestibulum <br />
+              sit amet urna turpis. Mauris euismod elit et <br />
+              nisi ultrices, ut faucibus orci tincidunt.
+            </p>
+            <button class="team__btn show__btn">
+              View our team
+              <img
+                class="btnrightimg"
+                src="./img/store-icon-right.png"
+                width="20px"
+                height="20px"
+                alt="right"
+              />
+            </button>
+          </div>
+          <ul class="team__list">
+            <li class="team__item">
+              <img class="team__img" src="./img/team-1.svg" alt="team-1" />
+              <div>
+                <p class="team__title">Ava Orn</p>
+                <p class="team__subtitle-n">Managing Broker</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img class="team__img" src="./img/team-2.svg" alt="team-2" />
+              <div>
+                <p class="team__title">Ella Hessel</p>
+                <p class="team__subtitle-n">Agentr</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img class="team__img" src="./img/team-3.svg" alt="team-3" />
+              <div>
+                <p class="team__title">Daryl Gislason</p>
+                <p class="team__subtitle-n">REALTOR</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img class="team__img" src="./img/team-4.svg" alt="team-4" />
+              <div>
+                <p class="team__title">David Sporer</p>
+                <p class="team__subtitle-n">David Sporer</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img class="team__img" src="./img/team-5.svg" alt="team-5" />
+              <div>
+                <p class="team__title">Trevor Torphy</p>
+                <p class="team__subtitle-n">Agent</p>
+              </div>
+            </li>
+            <li class="team__item">
+              <img class="team__img" src="./img/team-6.svg" alt="team-6" />
+              <div>
+                <p class="team__title">Amanda Giovanni</p>
+                <p class="team__subtitle-n">REALTOR</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="newsroom">
+        <div class="container">
+          <div class="newsroom__container">
+            <p class="title-orange">Newsroom</p>
+            <p class="title">Writing from Estate.</p>
+          </div>
+
+          <ul>
+            <li>
+              <img src="./img/newsroom-1.png" alt="newsroom-1" />
+              <div class="newsroom__text">
+                <p class="title-orange">Press release</p>
+                <p class="newsroom__title">
+                  Market watch: are condos still a good investment?
+                </p>
+                <p class="newsroom__subtitle">August 12, 2021</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/newsroom-2.png" alt="newsroom-2" />
+              <div class="newsroom__text">
+                <p class="title-orange">Announcement</p>
+                <p class="newsroom__title">The history of great design</p>
+                <p class="newsroom__subtitle">August 12, 2021</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/newsroom-3.png" alt="newsroom-3x" />
+              <div class="newsroom__text">
+                <p class="title-orange">Company news</p>
+                <p class="newsroom__title">Designers who changed everything</p>
+                <p class="newsroom__subtitle">August 12, 2021</p>
+              </div>
+            </li>
+          </ul>
+          <button class="show__btn">
+            Newsroom
+            <img src="./img/store-icon-right.png" alt="right" />
+          </button>
+        </div>
+      </section>
+
+      <section class="custom">
+        <div class="custom__container">
+          <div class="custom__inner">
+            <p class="title-orange">Testimonials</p>
+            <p class="title">What our customers say.</p>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <img src="./img/star-1.svg" alt="star" />
+                <p class="custom__title">We found the perfect home!</p>
+                <p class="custom__subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                  cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                  tristique posuere.
+                </p>
+                <div class="custom__flex">
+                  <div class="custom__box"></div>
+                  <p class="custom__text">Nate Davidsson</p>
+                </div>
+              </li>
+              <li>
+                <img src="./img/star-2.svg" alt="star" />
+                <p class="custom__title">We're so happy with Estate.</p>
+                <p class="custom__subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Suspendisse varius enim in eros elementum tristique. Duis
+                  cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                  commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                  cursus id rutrum lorem imperdiet.
+                </p>
+                <div class="custom__flex">
+                  <div class="custom__box"></div>
+                  <p class="custom__text">Laura Paulie</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="contacts__container">
+          <p class="title-orange">Seen enough?</p>
+          <p class="contacts__title">Get in touch with us today.</p>
+          <p class="contacts__subtitle">
+            Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
+            Vestibulum sit amet urna turpis. Mauris euismod elit et nisi
+            ultrices, ut faucibus orci tincidunt.
+          </p>
+          <div class="contacts__btn">
+            <button>Contact</button> <button>See listings</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <img class="footer__logo" src="./img/footer-1.svg" alt="logo" />
+        <ul class="footer__biglist">
+          <li>
+            <h2 class="title-orange">Pages</h2>
+
+            <a href="">Start</a>
+            <a href="">Listings</a>
+            <a href="">Listings alt. 2</a>
+            <a href="">Contact</a>
+            <a href="">Legal</a>
+          </li>
+          <li>
+            <h2 class="title-orange">Company</h2>
+
+            <a href="">About</a>
+            <a href="">Our team</a>
+            <a href="">Newsroom</a>
+          </li>
+          <li>
+            <h2 class="title-orange">Utility</h2>
+
+            <a href="">Instructions</a>
+            <a href="">Style guide</a>
+            <a href="">Licenses</a>
+            <a href="">Changelog</a>
+            <a href="">404</a>
+          </li>
+          <li>
+            <h2 class="title-orange">Newsletter</h2>
+            <p class="footer__text">
+              Subscribe to our (infrequent) newsletter where we share <br />
+              news about upcoming listings and projects.
+            </p>
+            <label for="email">
+              <input placeholder="Email" type="email" />
+              <button>Submit</button>
+            </label>
+          </li>
+        </ul>
+        <div class="footer__icon">
+          <p class="footer__icon-text">
+            © Estate, LLC. All rights reserved. Powered by Webflow
+          </p>
+          <ul class="footer__list">
+            <li>
+              <a href=""><img src="./img/footer-2.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./img/foooter-3.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./img/footer-4.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="./img/footer-5.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

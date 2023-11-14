@@ -1,0 +1,22 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "main": "git add.",
+  "scripts": {
+    "test": "git add"
+  },
+  "repository": {
+    "type": "git",
+    "url": "     npm i"
+  },
+  "keywords": [
+    "4554"
+  ],
+  "author": "npm install --global gulp-cli",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2"
+  }
+}
